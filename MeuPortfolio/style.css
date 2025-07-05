@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap'); 
+/* Importa a fonte Poppins do Google Fonts */
+
+body {
+  font-family: 'Poppins', sans-serif; /* Define a fonte da página */
+  background-color: #f4f7fa; /* Fundo claro */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #007acc; /* Cor azul do cabeçalho */
+  color: white; /* Texto branco */
+  padding: 2em 1em; /* Espaçamento interno */
+  text-align: center; /* Centraliza o texto */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Sombra leve abaixo */
+  border-bottom-left-radius: 10px; /* Cantos arredondados */
+  border-bottom-right-radius: 10px;
+}
+
+nav ul {
+  list-style: none; /* Remove marcadores da lista */
+  padding: 0;
+  display: flex; /* Alinha os itens lado a lado */
+  justify-content: center; /* Centraliza o menu */
+  background-color: #f28a0c; /* Fundo laranja */
+  margin: 0;
+  border-radius: 0 0 10px 10px; /* Cantos arredondados inferiores */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Sombra leve */
+}
+
+nav ul li {
+  margin: 0 20px; /* Espaço entre os itens */
+}
+
+nav ul li a {
+  color: white; /* Cor dos links */
+  text-decoration: none; /* Remove sublinhado */
+  font-weight: 500; /* Deixa o texto mais forte */
+  padding: 10px; /* Espaço interno nos links */
+  display: inline-block;
+  transition: background 0.3s, color 0.3s; /* Animação suave */
+}
+
+nav ul li a:hover {
+  background-color: white; /* Fundo branco ao passar o mouse */
+  color: #f28a0c; /* Texto laranja no hover */
+  border-radius: 5px; /* Arredonda o fundo no hover */
+}
+
+main {
+  max-width: 800px; /* Largura máxima do conteúdo */
+  margin: 40px auto; /* Centraliza o conteúdo */
+  padding: 2em; /* Espaço interno */
+  background-color: white; /* Fundo branco */
+  border-radius: 10px; /* Cantos arredondados */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05); /* Sombra leve */
+}
+
+footer {
+  background-color: #168bdf; /* Cor do rodapé */
+  color: white; /* Texto branco */
+  text-align: center; /* Centraliza o texto */
+  padding: 1em; /* Espaço interno */
+  position: fixed; /* Fixa no fundo da tela */
+  width: 100%; /* Ocupa toda a largura */
+  bottom: 0; /* Alinha na parte de baixo */
+  box-shadow: 0 -2px 4px rgba(0,0,0,0.1); /* Sombra no topo do rodapé */
+}
